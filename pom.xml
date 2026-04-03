@@ -138,17 +138,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>io.github.arcaneplugins</groupId>
-            <artifactId>LevelledMobs-plugin</artifactId>
-            <version>4.0.2</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>nomaven</groupId>
-                    <artifactId>CommandAPI</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
 
         <dependency>
             <groupId>com.oheers.evenmorefish</groupId>

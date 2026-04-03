@@ -143,19 +143,6 @@ public class Config {
         "[Default is false]"
     );
 
-    public static final ConfigValue<Boolean> LEVELLED_MOBS_KILL_ENTITY_ENABLED = ConfigValue.create("LevelledMobs.Integration.KillEntity.Enabled",
-        true,
-        "When enabled, multiplies XP and payment amount produced by  job objective when killing mobs with levels from LevelledMobs."
-    );
-
-    public static final ConfigValue<Double> LEVELLED_MOBS_KILL_ENTITY_MULTIPLIER = ConfigValue.create("LevelledMobs.Integration.KillEntity.Multiplier",
-        1D,
-        "Sets percent amount (%) added to a job's objective XP and payment for each mob level.",
-        "Examples:",
-        "==> With value = 1, a mob with lvl 30 will produce 30% more job XP and payments.",
-        "==> With value = 0.5, a mob with lvl 30 will produce 15% more job XP and payments."
-    );
-
     public static final ConfigValue<Boolean> ZONES_ENABLED = ConfigValue.create("Zones.Enabled",
         true,
         "Enables the Zones feature.",

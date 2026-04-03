@@ -46,7 +46,6 @@ Create **unlimited amount** of your own, **custom jobs** with **custom rewards**
 - [**Job Zones**](https://nightexpressdev.com/excellentjobs/zones/overview). Create special zones, where players can complete job objectives!
 - [**Special Orders**](https://nightexpressdev.com/excellentjobs/jobs/special-orders). Job quests with random objectives, custom rewards and completion time!
 - [**Boosters**](https://nightexpressdev.com/excellentjobs/boosters). Create global, personal and rank job boosters!
-- **LevelledMobs** Integration!
 - [**MythicMobs**](https://nightexpressdev.com/excellentjobs/hooks/mythic-mobs/) Integration with new objectives!
 - [**EvenMoreFish**](https://nightexpressdev.com/excellentjobs/hooks/even-more-fish/) Integration with new objectives!
 - [**CustomFishing**](https://nightexpressdev.com/excellentjobs/hooks/custom-fishing/) Integration with new objectives!
