@@ -26,6 +26,13 @@ public class Config {
     public static final String DIR_MENU       = "/menu/";
     public static final String DIR_JOBS       = "/jobs/";
     public static final String DIR_ZONES      = "/zones/";
+    private static final Material ZONE_HIGHLIGHT_WIRE_DEFAULT = resolveMaterial("CHAIN", Material.IRON_BARS);
+
+    @NotNull
+    private static Material resolveMaterial(@NotNull String materialName, @NotNull Material fallback) {
+        Material material = BukkitThing.getMaterial(materialName);
+        return material == null ? fallback : material;
+    }
 
     public static final ConfigValue<Boolean> FEATURES_BOOSTERS = ConfigValue.create("Features.Boosters",
         true,
@@ -181,9 +188,9 @@ public class Config {
 
     public static final ConfigValue<Material> ZONES_HIGHLIGHT_BLOCK_WIRE = ConfigValue.create("Zones.Highlighting.WireBlock",
         Material.class,
-        Material.CHAIN,
+        ZONE_HIGHLIGHT_WIRE_DEFAULT,
         "Block type used for a fake block display entity for zone selection's corners connections.",
-        "[Default is " + BukkitThing.getValue(Material.CHAIN) + "]"
+        "[Default is " + BukkitThing.getValue(ZONE_HIGHLIGHT_WIRE_DEFAULT) + "]"
     );
 
     public static final ConfigValue<Boolean> LEVELING_FIREWORKS = ConfigValue.create("Leveling.Fireworks",
